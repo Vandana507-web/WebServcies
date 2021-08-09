@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -33,6 +34,12 @@ public class Person {
 	System.out.println("stream:"+ " "+ str);
 	System.out.println("removed duplicates using hashset:"+ " "+ hashed);
 	System.out.println("sorted:"+ " "+ tree);
+	Iterator <Integer> itr=arr.iterator();
+	
+	while(itr.hasNext()) {
+		
+		System.out.println("iterator:" + " "+itr.next());
+	}
 	
 	
 int ar[]= new int[] {1,3,5,4,6,5,2,1};
@@ -49,6 +56,8 @@ for(int i =0;i<ar.length;i++) {
 		}
 	}
 }
+
+
 	}	
 
 }
