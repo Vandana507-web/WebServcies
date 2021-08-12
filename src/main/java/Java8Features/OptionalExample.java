@@ -28,6 +28,7 @@ public class OptionalExample {
 		Optional<String> empty =Optional.empty();
 		Optional<String> value =Optional.of(str[2]);
 		System.out.println("Empty value:"+ " "+empty);
+		//added code
 		
 		
 	  // If value is present, it returns an Optional otherwise returns an empty Optional
